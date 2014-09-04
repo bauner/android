@@ -5,6 +5,9 @@
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com" />
 
+ <remote name="bauner"
+           fetch="https://github.com/bauner/" />
+
   <remote  name="github"
            fetch=".."
            review="review.cyanogenmod.org" />
@@ -469,6 +472,7 @@
   <project path="prebuilts/python/darwin-x86/2.7.5" name="platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" groups="linux" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" groups="pdk" />
+   <project path="kernel/samsung/smdk4412" name="android_kernel_samsung_smdk4412" remote="bauner" revision="master" />
   <project path="prebuilts/runtime" name="platform/prebuilts/runtime" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" groups="pdk,tools" />
