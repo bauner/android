@@ -18,6 +18,9 @@
   <remote name="linaro" 
            fetch="git://android.git.linaro.org/" />
 
+<remote name="linaro-other"
+           fetch="https://git.linaro.org/" />
+
   <default revision="refs/heads/cm-11.0"
            remote="github"
            sync-c="true"
@@ -165,7 +168,7 @@
   <project path="external/jhead" name="CyanogenMod/android_external_jhead" groups="pdk" />
   <project path="external/jmdns" name="CyanogenMod/android_external_jmdns" />
   <project path="external/jmonkeyengine" name="CyanogenMod/android_external_jmonkeyengine" />
-  <project path="external/jpeg" name="bauner/jpeg-turbo" revision="linaro-android" groups="pdk" />
+  <project path="external/jpeg" name="people/ragesh.radhakrishnan/libjpeg-turbo" remote="linaro-other" revision="libjpeg-turbo" />
   <project path="external/jsilver" name="CyanogenMod/android_external_jsilver" />
   <project path="external/jsr305" name="CyanogenMod/android_external_jsr305" />
   <project path="external/jsr308" name="CyanogenMod/android_external_jsr308" />
